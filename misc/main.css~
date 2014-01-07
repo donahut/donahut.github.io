@@ -1,0 +1,123 @@
+* { padding: 0; margin: 0; }
+
+body {
+ background-color: #FFFFFF;
+ color: #007FFF;
+}
+
+@font-face {
+    font-family: 'dexblocky';
+    src: url('http://hrilab.tufts.edu/~tdonahue/sitefonts/dex.eot');
+    src: url('http://hrilab.tufts.edu/~tdonahue/sitefonts/dex.eot?#iefix') format('embedded-opentype'),
+         url('http://hrilab.tufts.edu/~tdonahue/sitefonts/dex.woff') format('woff'),
+         url('http://hrilab.tufts.edu/~tdonahue/sitefonts/dex.ttf') format('truetype'),
+         url('http://hrilab.tufts.edu/~tdonahue/sitefonts/dex.svg#dexblocky') format('svg');
+}
+
+.dexblockfont { 
+	font-family: "dexblocky";
+}
+
+#wrapper{
+	position: relative;
+	background-color: #FFFFFF;
+	height: 760px;
+	width: 800px;
+	margin: 0px auto;
+}
+
+#navlogowrapper{
+	position: relative;
+	width: 800px;
+	height: 140px;
+	margin: 0px auto;
+}
+
+#namebar {
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	top: 40px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "Helvetica";
+	z-index: 1;
+}
+
+#linkbar {
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	top: 20px;
+	border-bottom: 4px solid #EEE9E9;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "Helvetica";
+	z-index: 1;
+}
+
+
+#readscontentcolumn { 
+ 	position: absolute;
+ 	top: 40px;
+ 	left: 0px;
+	border: 4px solid #EEE9E9;
+ 	background-color: #FFFFFF;
+ 	color: #383838;
+ 	font-family: "Helvetica";
+ 	height: 680px;
+ 	width: 380px;
+ 	z-index: 2;
+}
+
+#sciencecontentcolumn { 
+ 	position: absolute;
+ 	top: 40px;
+ 	left: 410px;
+	border: 4px solid #EEE9E9;
+ 	background-color: #FFFFFF;
+ 	color: #383838;
+ 	font-family: "Helvetica";
+ 	height: 410px;
+ 	width: 380px;
+ 	z-index: 2;
+}
+
+#musiccontentcolumn { 
+ 	position: absolute;
+ 	top: 480px;
+ 	left: 410px;
+	border: 4px solid #EEE9E9;
+ 	background-color: #FFFFFF;
+ 	color: #383838;
+ 	font-family: "Helvetica";
+ 	height: 240px;
+ 	width: 380px;
+ 	z-index: 2;
+}
+
+#footer1 {
+ 	position: absolute;
+	top: 760px;
+ 	left: 0px;
+ 	border: 4px solid #EEE9E9;
+ 	background-color: #FFFFFF;
+ 	color: #383838;
+ 	font-family: "Helvetica";
+ 	height: 40px;
+ 	width: 290px;
+ 	z-index: 2;
+}
+
+#footer2 {
+ 	position: absolute;
+	top: 760px;
+ 	left: 320px;
+ 	border: 4px solid #EEE9E9;
+	background-color: #FFFFFF;
+ 	color: #383838;
+ 	font-family: "Helvetica";
+ 	height: 40px;
+ 	width: 470px;
+ 	z-index: 2;
+}

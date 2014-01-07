@@ -1,0 +1,34 @@
+<h1 id="tangiblerubik"></h1>
+@inproceedings{<br>
+ author = {Mott, Martez and Donahue, Thomas and Poor, G. Michael and Leventhal, Laura},<br>
+ title = {Leveraging motor learning for a tangible password system},<br>
+ booktitle = {Proceedings of the 2012 ACM annual conference extended abstracts on Human Factors in Computing Systems Extended Abstracts},<br>
+ series = {CHI EA '12},<br>
+ year = {2012},<br>
+ isbn = {978-1-4503-1016-1},<br>
+ location = {Austin, Texas, USA},<br>
+ pages = {2597--2602},<br>
+ numpages = {6},<br>
+ doi = {10.1145/2223656.2223842},<br>
+ publisher = {ACM},<br>
+ address = {New York, NY, USA},<br>
+ keywords = {motor learning, passwords, tangible interaction},<br>
+} 
+<br><br>
+<h1 id="accessawow"></h1>
+@inproceedings{<br>
+ author = {Poor, G. Michael and Donahue, Thomas J. and Mott, Martez E. and Zimmerman, Guy W. and Leventhal, Laura Marie},<br>
+ title = {Access-a-WoW: building an enhanced world of warcraftTM UI for persons with low visual acuity},<br>
+ booktitle = {Proceedings of the 6th international conference on Universal access in human-computer interaction: users diversity - Volume Part II},<br>
+ series = {UAHCI'11},<br>
+ year = {2011},<br>
+ isbn = {978-3-642-21662-6},<br>
+ location = {Orlando, FL},<br>
+ pages = {352--361},<br>
+ numpages = {10},<br>
+ publisher = {Springer-Verlag},<br>
+ address = {Berlin, Heidelberg},<br>
+ keywords = {accessibility, accessible gaming, human-computer interaction},<br>
+} 
+
+
