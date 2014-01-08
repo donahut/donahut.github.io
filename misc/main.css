@@ -7,11 +7,11 @@ body {
 
 @font-face {
     font-family: 'blackout';
-    src: url('http://hrilab.tufts.edu/~tdonahue/sitefonts/blackout.eot');
-    src: url('http://hrilab.tufts.edu/~tdonahue/sitefonts/blackout.eot?#iefix') format('embedded-opentype'),
-         url('http://hrilab.tufts.edu/~tdonahue/sitefonts/blackout.woff') format('woff'),
-         url('http://hrilab.tufts.edu/~tdonahue/sitefonts/blackout.ttf') format('truetype'),
-         url('http://hrilab.tufts.edu/~tdonahue/sitefonts/blackout.svg#blackout') format('svg');
+    src: url('http://donahut.github.io/sitefonts/blackout.eot');
+    src: url('http://donahut.github.io/sitefonts/blackout.eot?#iefix') format('embedded-opentype'),
+         url('http://donahut.github.io/sitefonts/blackout.woff') format('woff'),
+         url('http://donahut.github.io/sitefonts/blackout.ttf') format('truetype'),
+         url('http://donahut.github.io/sitefonts/blackout.svg#blackout') format('svg');
 }
 
 .blackoutfont { 
