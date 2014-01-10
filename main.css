@@ -69,6 +69,16 @@ body {
  	z-index: 1;
 }
 
+#picture {
+    width: 258px;
+    height: 318px;
+    background-image: url('http://donahut.github.io/siteimages/Me_2.jpg');
+}
+
+#picture:hover {
+    background-image: url('http://donahut.github.io/siteimages/Me_2_glitched.png');
+}
+
 #aboutcolumn { 
  	position: absolute;
  	top: 40px;
