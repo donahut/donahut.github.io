@@ -1,72 +1,81 @@
-* { padding: 0; margin: 0; }
+* { margin: 0 auto; }
 
 body {
- background-color: #FFFFFF;
- color: #007FFF;
+    background-color: #09629B;
+    color: #007FFF;
 }
 
 @font-face {
     font-family: 'blackout';
     src: url('http://donahut.github.io/sitefonts/blackout.eot');
     src: url('http://donahut.github.io/sitefonts/blackout.eot?#iefix') format('embedded-opentype'),
-         url('http://donahut.github.io/sitefonts/blackout.woff') format('woff'),
-         url('http://donahut.github.io/sitefonts/blackout.ttf') format('truetype'),
-         url('http://donahut.github.io/sitefonts/blackout.svg#blackout') format('svg');
+    url('http://donahut.github.io/sitefonts/blackout.woff') format('woff'),
+    url('http://donahut.github.io/sitefonts/blackout.ttf') format('truetype'),
+    url('http://donahut.github.io/sitefonts/blackout.svg#blackout') format('svg');
 }
 
 .blackoutfont { 
-	font-family: "blackout";
+    font-family: "blackout";
 }
 
-#wrapper{
-	position: relative;
-	background-color: #FFFFFF;
-	height: 490px;
-	width: 800px;
-	margin: 0px auto;
+.header {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
 }
 
-#navlogowrapper{
-	position: relative;
-	width: 800px;
-	height: 140px;
-	margin: 0px auto;
+.name {
+    width: 800px;
+    height: 100px;
+    background-color: #F2EE00;
+    color: #000000;
+    font-family: 'blackout';
+    font-size: 72px;
+    text-align: center;
+    padding-top: 30px;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px black;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;    
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
 }
 
-#namebar {
-	position: absolute;
-	right: 0px;
-	left: 0px;
-	top: 40px;
-	background-color: #FFFFFF;
-	color: #000000;
-	font-family: "Helvetica Neue", Arial, sans-serif;
-	z-index: 1;
+.content {
+    text-align: center;
+    width: 800px;
+    background-color: blue;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #000;
 }
 
-#linkbar {
-	position: absolute;
-	right: 0px;
-	left: 0px;
-	top: 20px;
-	border-bottom: 4px solid #EEE9E9;
-	background-color: #FFFFFF;
-	color: #000000;
-	font-family: "Helvetica Neue", Arial, sans-serif;
-	z-index: 1;
+.fcolumn {
+    float: left;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #000;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* future proofing */
 }
 
-#photocolumn { 
- 	position: absolute;
- 	top: 40px;
- 	left: 0px;
- 	border: 4px solid #EEE9E9;
- 	background-color: #FFFFFF;
- 	color: #383838;
- 	font-family: "Helvetica Neue", Arial, sans-serif;
- 	height: 340px;
- 	width: 290px;
- 	z-index: 1;
+.photo { 
+    background-color: #E8E8E8;
+    color: #383838;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    height: 338px;
+    width: 290px;
+    padding-top: 12px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* future proofing */
 }
 
 #picture {
@@ -75,58 +84,79 @@ body {
     background-image: url('http://donahut.github.io/siteimages/Me_2.jpg');
 }
 
-#picture:hover {
-    background-image: url('http://donahut.github.io/siteimages/Me_2_glitched.png');
+.scolumn {
+    float: right;
 }
 
-#aboutcolumn { 
- 	position: absolute;
- 	top: 40px;
- 	left: 320px;
- 	border: 4px solid #EEE9E9;
- 	background-color: #FFFFFF;
- 	color: #383838;
- 	font-family: "Helvetica Neue", Arial, sans-serif;
- 	height: 210px;
-	width: 470px;
-	z-index: 2;
+.about { 
+    text-align: left;
+    background-color: #E8E8E8;
+    color: #383838;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    height: 210px;
+    width: 470px;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #000;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* future proofing */
 }
 
-#contactcolumn { 
- 	position: absolute;
- 	top: 280px;
- 	left: 320px;
- 	border: 4px solid #EEE9E9;
- 	background-color: #FFFFFF;
- 	color: #383838;
- 	font-family: "Helvetica Neue", Arial, sans-serif;
- 	height: 100px;
-	width: 470px;
-	z-index: 2;
+.contact { 
+    margin-top: 40px;
+    background-color: #E8E8E8;
+    color: #383838;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    height: 100px;
+    width: 470px;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #000;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* future proofing */
 }
 
-#footer1 {
- 	position: absolute;
- 	top: 420px;
- 	left: 0px;
- 	border: 4px solid #EEE9E9;
- 	background-color: #FFFFFF;
- 	color: #383838;
- 	font-family: "Helvetica Neue", Arial, sans-serif;
- 	height: 40px;
- 	width: 290px;
- 	z-index: 2;
+.footer {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #383838;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    height: 40px;
+    width: 290px;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #000;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* future proofing */
 }
 
-#footer2 {
- 	position: absolute;
- 	top: 420px;
- 	left: 320px;
- 	border: 4px solid #EEE9E9;
-	background-color: #FFFFFF;
- 	color: #383838;
- 	font-family: "Helvetica Neue", Arial, sans-serif;
- 	height: 40px;
- 	width: 470px;
- 	z-index: 2;
+.title {
+    font-family: 'blackout';
+}
+
+.subtitle {
+    font-family: 'blackout';
+    color: #000000;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14pt;
+    text-align: right;
+}
+
+.details {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.medium {
+    float: left;
+    padding-top: 10px;
+    width: 30%;
+    font-size: 3;
+    valign: center;
+    text-align: center;
 }
