@@ -3,20 +3,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml"> 
   <head> 	
     <link rel="SHORTCUT ICON" href="TJD_Icon.ico"/> 
-    <meta name="description" content="I'm Thomas J. Donahue, a software engineer at Aldebaran Robotics."/>
-    <meta name="keywords" content="thomas, tom, james, donahue, thomas j donahue, aldebaran, tufts, bowling green, BGSU, 
-          computer science, cognitive science, robot, robotics, hri, human robot interaction, 
-          science, medford, ma, computer, research"/> 
+    <meta name="description" content="I'm Thomas J. Donahue, a robot
+          software engineer at Aldebaran Robotics."/>
+    <meta name="keywords" content="thomas, tom, james, donahue, thomas
+          j donahue, aldebaran, tufts, bowling green, BGSU, computer
+          science, cognitive science, robot, robotics, hri, human
+          robot interaction, hci, human computer interaction, science,
+          computer, research"/> 
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
     <title>Thomas J. Donahue | Welcome </title> 
     <link rel="stylesheet" type="text/css" href="main.css" /> 
+    <script src="lib/jquery-1.11.1.min.js" type="text/javascript"></script>
   </head> 
-  <style>	
-   <!--A:link { COLOR: #E00030; TEXT-DECORATION: none; font-weight: strong}
-   A:visited { COLOR: #E00030; TEXT-DECORATION: none; font-weight: normal }
-   A:hover { COLOR: #0567A7; TEXT-DECORATION: none; font-weight: none }
-   -->	
-  </style>
   <body> 
     <div class="header">
       <div class="name">
@@ -56,28 +54,96 @@
 	    contact
           </div>
           <div class="medium">
-	    <b><a href="mailto:donahut.se@gmail.com">EMAIL</a></b>
+	    <b><a href="mailto:donahut.se@gmail.com">Email</a></b>
           </div>
           <div class="medium">
-	    <b><a href="http://www.linkedin.com/in/donahut">LINKEDIN</a></b>
+	    <b><a href="http://www.linkedin.com/in/donahut">LinkedIn</a></b>
           </div>
           <div class="medium">
-	    <b><a href="https://github.com/donahut">GITHUB</a></b>
+	    <b><a href="https://github.com/donahut">GitHub</a></b>
+          </div>
+        </div>
+      </div>
+      <div class="srow">
+        <div class="pubs">
+          <div class="grow">
+            <a href="#" id="show_pubs">+</a>
+          </div>
+          <div class="subtitle_p">
+	     publications
+          </div>
+          &nbsp;</br>&nbsp;
+          <div class="details" id="all_pubs" style="display:none">
+            <div class="year">
+              2014
+            </div>
+	    <div class="pub">Canning, C, <b>Donahue, T.</b>, and
+	      Scheutz, M. 2014. <i>Investigating Human Perceptions
+	      of Robot Capabilities in Remote Human-Robot Team
+	      Tasks based on First-Person Robot Video Feeds</i>.
+              IROS 2014. <i><b>To Appear.</b></i>
+            </div>
+            <div class="year">
+              2013
+            </div>
+	    <div class="pub">
+              Jaffee, S. D. and Leventhal, L. M. and Klein, B. A. and
+	      <b>Donahue, T. J.</b> 2013. <i>Once again comparing cube
+	      rotations around axes inclined relative to the
+	      environment or to the cube: Shiffrar and Shepard (1991)
+	      revisted.</i> Annual Meeting Midwestern Psychological
+	      Association [<a href="../pubs/bibs.html#cubes">Bib</a>]
+            </div>
+            <div class="pub">
+              <b>Donahue, T.</b>, Poor, G.M., Mott, M., Leventhal, L.,
+	      Zimmerman, G., Klopfer, D. 2013. <i>On Interface
+	      Closeness and Problem Solving.</i> In Seventh
+	      International Conference on Tangible, Embedded and
+	      Embodied Interaction (TEI '13). [<a
+	      href="../pubs/bibs.html#oncloseness">Bib</a>]
+            </div>
+            <div class="year">
+              2012
+            </div>
+            <div class="pub">
+	      Mott, M. E., <b>Donahue, T. J.</b>, Poor, G. M.,
+	      Leventhal, L. M. 2012. <i>TangibleRubic: Leveraging
+	      Motor Learning for a Tangible Password System. </i>
+	      Extended Abstracts of the ACM Conference on Human
+	      Factors in Computing Systems (CHI '12). [<a
+	      href="../pubs/bibs.html#tangiblerubik">Bib</a>]
+	    </div>
+            <div class="year">
+              2011
+            </div>
+            <div class="pub">
+              Poor, G. M., <b>Donahue, T. J.</b>, Mott, M. E.,
+	      Zimmerman, G. W., Leventhal, L. M. 2011 .
+	      <i>Access-a-Wow: Building an Enhanced World of Warcraft
+	      UI for Persons with Low Visual Acuity.</i> Proceedings
+	      of the 6th International Conference on Universal Access
+	      in Human-Computer Interaction. (HCI International '11)
+	      [<a href="../pubs/bibs.html#accessawow">Bib</a>]
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- <div class="footer"> 
-    <font size="2"><b>Thomas J. Donahue, 2014</b></font>
-    </div> -->
-    <!-- <div class="footer2"> 
-    <table width="470" cellspacing="10" border="0">
-    <tr>
-    <td width="50%" align="right">
-    <font size="2"><b>If you like anything about the site, feel free to use any of the code.</b></font>
-    </td>
-    </tr>
-    </table>
-    </div> -->
+    <div class="footer">&nbsp;</div>
+    <script type="text/javascript">
+     $(document).ready(function () {
+       $('#show_pubs').click(function(e) {
+         e.preventDefault();
+         if ($('#show_pubs').html() == "+") {
+           $('#all_pubs').show();
+           $('#show_pubs').html("-");
+         }
+         else {
+           $('#all_pubs').hide();
+           $('#show_pubs').html("+");
+         }
+       });
+     });
+    </script>
   </body>
 </html> 
