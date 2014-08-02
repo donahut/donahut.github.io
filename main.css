@@ -143,13 +143,14 @@ body {
     width: 90%;
     padding-top: 10px;
     padding-bottom: 20px;
-    font-size: 14pt;
+    font-size: 16pt;
     text-align: right;
 }
 
 .details {
     font-size: 12px;
     padding: 10px;
+    width: 90%;
 }
 
 .medium {
