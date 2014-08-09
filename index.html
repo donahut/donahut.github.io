@@ -65,14 +65,13 @@
         </div>
       </div>
       <div class="srow">
-        <div class="pubs">
+        <div class="pubs" id="publications">
           <div class="grow">
             <a href="#" id="show_pubs">+</a>
           </div>
           <div class="subtitle_p">
 	     publications
           </div>
-          <font size="2pt">&nbsp;</br>&nbsp;</font>
           <div class="details" id="all_pubs" style="display:none">
             <div class="year">
               2014
@@ -137,10 +136,12 @@
          if ($('#show_pubs').html() == "+") {
            $('#all_pubs').show();
            $('#show_pubs').html("-");
+           $('#publications').css("padding-bottom", "20px")
          }
          else {
            $('#all_pubs').hide();
            $('#show_pubs').html("+");
+           $('#publications').css("padding-bottom", "50px")
          }
        });
      });
