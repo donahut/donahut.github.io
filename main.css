@@ -7,11 +7,16 @@ body {
 
 @font-face {
     font-family: 'blackout';
-    src: url('http://donahut.github.io/sitefonts/blackout.eot');
-    src: url('http://donahut.github.io/sitefonts/blackout.eot?#iefix') format('embedded-opentype'),
-    url('http://donahut.github.io/sitefonts/blackout.woff') format('woff'),
-    url('http://donahut.github.io/sitefonts/blackout.ttf') format('truetype'),
-    url('http://donahut.github.io/sitefonts/blackout.svg#blackout') format('svg');
+    src: url('./sitefonts/blackout.eot');
+    src: url('./sitefonts/blackout.eot?#iefix') format('embedded-opentype'),
+    url('./sitefonts/blackout.woff') format('woff'),
+    url('./sitefonts/blackout.ttf') format('truetype'),
+    url('./sitefonts/blackout.svg#blackout') format('svg');
+    /* src: url('http://donahut.github.io/sitefonts/blackout.eot'); */
+    /* src: url('http://donahut.github.io/sitefonts/blackout.eot?#iefix') format('embedded-opentype'), */
+    /* url('http://donahut.github.io/sitefonts/blackout.woff') format('woff'), */
+    /* url('http://donahut.github.io/sitefonts/blackout.ttf') format('truetype'), */
+    /* url('http://donahut.github.io/sitefonts/blackout.svg#blackout') format('svg'); */
 }
 
 .blackoutfont { 
@@ -70,9 +75,12 @@ body {
     background-color: #E8E8E8;
     color: #383838;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    height: 380px;
+    height: 236px;
     width: 290px;
-    padding-top: 12px;
+    padding-top: 14px;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #000;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px; /* future proofing */
@@ -80,8 +88,23 @@ body {
 
 #picture {
     width: 258px;
-    height: 318px;
+    height: 218px;
     background-image: url('http://donahut.github.io/siteimages/Me_2.jpg');
+}
+
+.resume {
+    margin-top: 40px;
+    background-color: #E8E8E8;
+    color: #383838;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    height: 100px;
+    width: 290px;
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #000;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* future proofing */
 }
 
 .scolumn {
@@ -201,6 +224,15 @@ body {
     float: left;
     padding-top: 10px;
     width: 30%;
+    font-size: 3;
+    valign: center;
+    text-align: center;
+}
+
+.medium2 {
+    float: left;
+    padding-top: 10px;
+    width: 50%;
     font-size: 3;
     valign: center;
     text-align: center;
