@@ -7,3 +7,5 @@ I took a fair bit of inspiration from Google's "Material Design" [guideline](htt
 
 In case you are wondering, the font used is
 [Blackout](http://www.fontsquirrel.com/fonts/Blackout) and the color pallette can be found [here](http://www.paletton.com/#uid=55u1+0kw0upp5qqtitbCwvwJmxo).
+
+The HTML version of my resume is served by [RawGit](https://rawgit.com/), which is a rather handy service. 
