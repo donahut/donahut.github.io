@@ -12,15 +12,24 @@ body {
     url('./sitefonts/blackout.woff') format('woff'),
     url('./sitefonts/blackout.ttf') format('truetype'),
     url('./sitefonts/blackout.svg#blackout') format('svg');
-    /* src: url('http://donahut.github.io/sitefonts/blackout.eot'); */
-    /* src: url('http://donahut.github.io/sitefonts/blackout.eot?#iefix') format('embedded-opentype'), */
-    /* url('http://donahut.github.io/sitefonts/blackout.woff') format('woff'), */
-    /* url('http://donahut.github.io/sitefonts/blackout.ttf') format('truetype'), */
-    /* url('http://donahut.github.io/sitefonts/blackout.svg#blackout') format('svg'); */
 }
 
 .blackoutfont { 
     font-family: "blackout";
+}
+
+
+.shadow {
+    -webkit-box-shadow: 0 8px 6px -6px #000;
+    -moz-box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+
+.card {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* future proofing */   
 }
 
 .header {
@@ -28,6 +37,17 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 70px;
+}
+
+.header_card {
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;    
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
 }
 
 .name {
@@ -39,36 +59,15 @@ body {
     font-size: 72px;
     text-align: center;
     padding-top: 30px;
-    -webkit-box-shadow: 0 8px 6px -6px #000;
-    -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px black;
-    -moz-border-radius-topleft: 0;
-    -moz-border-radius-topright: 0;
-    -moz-border-radius-bottomright: 2px;
-    -moz-border-radius-bottomleft: 2px;    
-    -webkit-border-top-left-radius: 0;
-    -webkit-border-top-right-radius: 0;
-    -webkit-border-bottom-right-radius: 2px;
-    -webkit-border-bottom-left-radius: 2px;
 }
 
 .content {
     text-align: center;
     width: 800px;
-    background-color: blue;
-    -webkit-box-shadow: 0 8px 6px -6px #000;
-    -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px #000;
 }
 
 .fcolumn {
     float: left;
-    -webkit-box-shadow: 0 8px 6px -6px #000;
-    -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px #000;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px; /* future proofing */
 }
 
 .photo { 
@@ -78,12 +77,6 @@ body {
     height: 236px;
     width: 290px;
     padding-top: 14px;
-    -webkit-box-shadow: 0 8px 6px -6px #000;
-    -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px #000;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px; /* future proofing */
 }
 
 #picture {
@@ -99,12 +92,6 @@ body {
     font-family: "Helvetica Neue", Arial, sans-serif;
     height: 100px;
     width: 290px;
-    -webkit-box-shadow: 0 8px 6px -6px #000;
-    -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px #000;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px; /* future proofing */
 }
 
 .scolumn {
@@ -118,12 +105,6 @@ body {
     font-family: "Helvetica Neue", Arial, sans-serif;
     height: 250px;
     width: 470px;
-    -webkit-box-shadow: 0 8px 6px -6px #000;
-    -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px #000;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px; /* future proofing */
 }
 
 .contact { 
@@ -133,12 +114,6 @@ body {
     font-family: "Helvetica Neue", Arial, sans-serif;
     height: 100px;
     width: 470px;
-    -webkit-box-shadow: 0 8px 6px -6px #000;
-    -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px #000;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px; /* future proofing */
 }
 
 .srow {
@@ -154,12 +129,6 @@ body {
     color: #383838;
     font-family: "Helvetica Neue", Arial, sans-serif;
     width: 800px;
-    -webkit-box-shadow: 0 8px 6px -6px #000;
-    -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px #000;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px; /* future proofing */
 }
 
 .footer {
