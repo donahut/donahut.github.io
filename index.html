@@ -15,31 +15,16 @@
     <title>Thomas J. Donahue | Welcome </title> 
     <link rel="stylesheet" type="text/css" href="main.css" /> 
     <script src="lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
   </head> 
   <body> 
     <div class="header">
       <div class="name shadow header_card">
-	thomas j. donahue
+	thomas &nbsp;&nbsp; donahue
       </div>
     </div>
     <div class="content">
-      <div class="fcolumn"> 
-        <div class="photo card shadow"> 
-	  <center><div id="picture"></div></center>
-        </div>
-        <div class="resume card shadow">
-          <div class="subtitle">
-	    resume
-          </div>
-          <div class="medium2">
-            <a href="https://github.com/donahut/resume/blob/master/donahue-resume.pdf?raw=true"><b>PDF</b></a>
-          </div>
-          <div class="medium2">
-            <a href="https://cdn.rawgit.com/donahut/resume/616a98a54980e43e27ed1824d4685c4d54d084ca/donahue-resume.html"><b>HTML</b></a>
-          </div>
-        </div>
-      </div>
-      <div class="scolumn">
+      <div class="card_container" id="about_c">
         <div class="about card shadow"> 
 	  <div class="subtitle">
             about me
@@ -56,87 +41,102 @@
               researcher in both <a href="http://hrilab.tufts.edu/">Human-Robot Interaction</a>,
               at Tufts University, and Human-Computer Interaction, at
               Bowling Green State University.</br></br>
-              
+            
               Outside of work, I try to carve out some time for
               personal projects. I am a big fan of Linux, Emacs, Lisp
               and functional programming.</b>
           </div>
         </div>
-        <div class="contact card shadow">
-          <div class="subtitle">
-	    contact
+      </div>
+      <div class="card_container" id="more_c">
+        <div class="about card shadow" id="more">
+          <div class="medium">
+	    <a href="https://github.com/donahut/resume/blob/master/donahue-resume.pdf?raw=true"><i class="fa fa-file-text-o fa-lg fa-fw"></i></a> / 
+            <a href="https://cdn.rawgit.com/donahut/resume/616a98a54980e43e27ed1824d4685c4d54d084ca/donahue-resume.html"><i class="fa fa-globe fa-lg fa-fw"></i></a> 
           </div>
           <div class="medium">
-	    <b><a href="mailto:donahut.se@gmail.com">Email</a></b>
+            <a href="mailto:donahut.se@gmail.com"><i class="fa fa-envelope fa-lg fa-fw"></i></a>
           </div>
           <div class="medium">
-	    <b><a href="http://www.linkedin.com/in/donahut">LinkedIn</a></b>
+	    <a href="https://github.com/donahut"><i class="fa fa-github fa-lg fa-fw"></i></a>
           </div>
           <div class="medium">
-	    <b><a href="https://github.com/donahut">GitHub</a></b>
+	    <a href="http://www.linkedin.com/in/donahut"><i class="fa fa-lg fa-linkedin"></i></a>
+          </div>
+          <div class="medium">
+	    resume
+          </div>
+          <div class="medium">
+	    email
+          </div>
+          <div class="medium">
+	    github
+          </div>
+          <div class="medium">
+	    linkedin
           </div>
         </div>
       </div>
-      <div class="srow">
-        <div class="pubs card shadow" id="publications">
-          <div class="grow">
-            <a href="#" id="show_pubs">+</a>
+      <div class="pubs card shadow" id="publications">
+        <div class="subtitle" id="pubs_sub">
+          <div class="dyn_subtitle">
+	    publications
           </div>
-          <div class="subtitle_p">
-	     publications
+          <div class="grow btn" id="show_pubs">
+            <i id="pubs_toggle" class="fa fa-chevron-down fa-fw"></i>
           </div>
-          <div class="details" id="all_pubs" style="display:none">
-            <div class="year">
-              2014
-            </div>
-	    <div class="pub">Canning, C, <b>Donahue, T.</b>, and
-	      Scheutz, M. 2014. <i>Investigating Human Perceptions
-	      of Robot Capabilities in Remote Human-Robot Team
-	      Tasks based on First-Person Robot Video Feeds</i>.
-              Proceedings of IROS 2014. [<a href="./bibs.html#feeds">Bib</a>]
-            </div>
-            <div class="year">
-              2013
-            </div>
-	    <div class="pub">
-              Jaffee, S. D. and Leventhal, L. M. and Klein, B. A. and
-	      <b>Donahue, T. J.</b> 2013. <i>Once again comparing cube
+        </div>
+        <div class="details" id="all_pubs" style="display:none">
+          <div class="year">
+            2014
+          </div>
+	  <div class="pub">Canning, C, <b>Donahue, T.</b>, and
+	    Scheutz, M. 2014. <i>Investigating Human Perceptions
+	    of Robot Capabilities in Remote Human-Robot Team
+	    Tasks based on First-Person Robot Video Feeds</i>.
+            Proceedings of IROS 2014. [<a href="./bibs.html#feeds">Bib</a>]
+          </div>
+          <div class="year">
+            2013
+          </div>
+	  <div class="pub">
+            Jaffee, S. D. and Leventhal, L. M. and Klein, B. A. and
+	    <b>Donahue, T. J.</b> 2013. <i>Once again comparing cube
 	      rotations around axes inclined relative to the
 	      environment or to the cube: Shiffrar and Shepard (1991)
 	      revisted.</i> Annual Meeting Midwestern Psychological
-	      Association [<a href="./bibs.html#cubes">Bib</a>]
-            </div>
-            <div class="pub">
-              <b>Donahue, T.</b>, Poor, G.M., Mott, M., Leventhal, L.,
-	      Zimmerman, G., Klopfer, D. 2013. <i>On Interface
+	    Association [<a href="./bibs.html#cubes">Bib</a>]
+          </div>
+          <div class="pub">
+            <b>Donahue, T.</b>, Poor, G.M., Mott, M., Leventhal, L.,
+	    Zimmerman, G., Klopfer, D. 2013. <i>On Interface
 	      Closeness and Problem Solving.</i> In Seventh
-	      International Conference on Tangible, Embedded and
-	      Embodied Interaction (TEI '13). [<a
+	    International Conference on Tangible, Embedded and
+	    Embodied Interaction (TEI '13). [<a
 	      href="./bibs.html#oncloseness">Bib</a>]
-            </div>
-            <div class="year">
-              2012
-            </div>
-            <div class="pub">
-	      Mott, M. E., <b>Donahue, T. J.</b>, Poor, G. M.,
-	      Leventhal, L. M. 2012. <i>TangibleRubic: Leveraging
-	      Motor Learning for a Tangible Password System. </i>
-	      Extended Abstracts of the ACM Conference on Human
-	      Factors in Computing Systems (CHI '12). [<a
-	      href="./bibs.html#tangiblerubik">Bib</a>]
-	    </div>
-            <div class="year">
-              2011
-            </div>
-            <div class="pub">
-              Poor, G. M., <b>Donahue, T. J.</b>, Mott, M. E.,
-	      Zimmerman, G. W., Leventhal, L. M. 2011 .
-	      <i>Access-a-Wow: Building an Enhanced World of Warcraft
+          </div>
+          <div class="year">
+            2012
+          </div>
+          <div class="pub">
+	    Mott, M. E., <b>Donahue, T. J.</b>, Poor, G. M.,
+	    Leventhal, L. M. 2012. <i>TangibleRubic: Leveraging
+	    Motor Learning for a Tangible Password System. </i>
+	    Extended Abstracts of the ACM Conference on Human
+	    Factors in Computing Systems (CHI '12). [<a
+	    href="./bibs.html#tangiblerubik">Bib</a>]
+	  </div>
+          <div class="year">
+            2011
+          </div>
+          <div class="pub">
+            Poor, G. M., <b>Donahue, T. J.</b>, Mott, M. E.,
+	    Zimmerman, G. W., Leventhal, L. M. 2011 .
+	    <i>Access-a-Wow: Building an Enhanced World of Warcraft
 	      UI for Persons with Low Visual Acuity.</i> Proceedings
-	      of the 6th International Conference on Universal Access
-	      in Human-Computer Interaction. (HCI International '11)
-	      [<a href="./bibs.html#accessawow">Bib</a>]
-            </div>
+	    of the 6th International Conference on Universal Access
+	    in Human-Computer Interaction. (HCI International '11)
+	    [<a href="./bibs.html#accessawow">Bib</a>]
           </div>
         </div>
       </div>
@@ -146,15 +146,15 @@
      $(document).ready(function () {
        $('#show_pubs').click(function(e) {
          e.preventDefault();
-         if ($('#show_pubs').html() == "+") {
+         if ($('#all_pubs').css('display') == 'none') {
+           $('#pubs_sub').css('padding-bottom', '20px');
            $('#all_pubs').show();
-           $('#show_pubs').html("-");
-           $('#publications').css("padding-bottom", "20px")
+           $('#pubs_toggle').removeClass("fa-chevron-down").addClass("fa-chevron-up");
          }
          else {
            $('#all_pubs').hide();
-           $('#show_pubs').html("+");
-           $('#publications').css("padding-bottom", "50px")
+           $('#pubs_sub').css('padding-bottom', '10px');
+           $('#pubs_toggle').removeClass("fa-chevron-up").addClass("fa-chevron-down");
          }
        });
      });
