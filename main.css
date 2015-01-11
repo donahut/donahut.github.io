@@ -6,15 +6,6 @@ body {
 }
 
 @font-face {
-    font-family: 'blackout';
-    src: url('./fonts/blackout.eot');
-    src: url('./fonts/blackout.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/blackout.woff') format('woff'),
-    url('./fonts/blackout.ttf') format('truetype'),
-    url('./fonts/blackout.svg#blackout') format('svg');
-}
-
-@font-face {
     font-family: 'bebas';
     src: url('./fonts/BEBAS___-webfont.eot');
     src: url('./fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
@@ -23,10 +14,6 @@ body {
          url('./fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
-
-.blackoutfont { 
-    font-family: "blackout";
 }
 
 .bebasfont { 
@@ -42,7 +29,7 @@ body {
 .card {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    border-radius: 2px; /* future proofing */ 
+    border-radius: 2px;
     padding: 2%;
     background-color: #E8E8E8;
 }
@@ -87,7 +74,7 @@ body {
     text-align: left;
     background-color: #E8E8E8;
     color: #383838;
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: Droid sans, "Helvetica Neue", Arial, sans-serif;
     margin-top: 40px;
     width: 50%;
     min-width: 500px;
@@ -95,19 +82,8 @@ body {
 }
 
 .details {
-    font-size: 10pt;
+    font-size: 12pt;
     width: 90%;
-}
-
-.resume {
-    display: inline-block;
-    background-color: #E8E8E8;
-    margin-top: 40px;
-    color: #383838;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    width: 50%;
-    min-width: 500px;
-    max-width: 700px;
 }
 
 .pubs {
@@ -115,7 +91,7 @@ body {
     margin-top: 40px;
     background-color: #E8E8E8;
     color: #383838;
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: Droid sans, "Helvetica Neue", Arial, sans-serif;
     width: 50%;
     min-width: 500px;
     max-width: 700px;
@@ -147,10 +123,10 @@ body {
 
 .year {
     color: #000000;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 12pt;
     text-align: left;
-    font-family: bebas;
+    font-family: 'bebas';
 }
 
 .med_container {
@@ -170,9 +146,18 @@ body {
 }
 
 .pub {
-    padding-bottom: 5px;
+    padding-top: 10px;
     text-align: left;
-    font-size: 10pt;
+    font-size: 12pt;
+}
+
+.me {
+    text-shadow: 1px 0px #F2EE00;
+}
+
+.pub_title {
+    color: #236087;
+    font-style: italic;
 }
 
 A:link { 
