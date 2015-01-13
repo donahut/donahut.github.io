@@ -16,8 +16,40 @@ body {
     font-style: normal;
 }
 
-.bebasfont { 
-    font-family: "bebas";
+@font-face {
+    font-family: 'robotoregular';
+    src: url('./fonts/roboto-regular-webfont.eot');
+    src: url('./fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-regular-webfont.woff') format('woff'),
+         url('./fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('./fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('./fonts/roboto-italic-webfont.eot');
+    src: url('./fonts/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-italic-webfont.woff') format('woff'),
+         url('./fonts/roboto-italic-webfont.ttf') format('truetype'),
+         url('./fonts/roboto-italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('./fonts/roboto-medium-webfont.eot');
+    src: url('./fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-medium-webfont.woff') format('woff'),
+         url('./fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('./fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .shadow {
@@ -74,7 +106,7 @@ body {
     text-align: left;
     background-color: #E8E8E8;
     color: #383838;
-    font-family: Droid sans, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
     margin-top: 40px;
     width: 50%;
     min-width: 500px;
@@ -91,7 +123,7 @@ body {
     margin-top: 40px;
     background-color: #E8E8E8;
     color: #383838;
-    font-family: Droid sans, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
     width: 50%;
     min-width: 500px;
     max-width: 700px;
@@ -142,7 +174,7 @@ body {
     width: 25%;
     font-size: 14pt;
     text-align: center;
-    font-family: bebas;
+    font-family: 'bebas';
 }
 
 .pub {
@@ -152,12 +184,13 @@ body {
 }
 
 .me {
-    text-shadow: 1px 0px #F2EE00;
+    /* text-shadow: 1px 0px #F2EE00; */
+    font-family: 'robotomedium';
 }
 
 .pub_title {
     color: #236087;
-    font-style: italic;
+    font-family: 'robotoitalic';
 }
 
 A:link { 
