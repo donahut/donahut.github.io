@@ -144,6 +144,17 @@ body {
     max-width: 700px;
 }
 
+.pats {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #E8E8E8;
+    color: #383838;
+    font-family: 'robotoregular', Arial, sans-serif;
+    width: 50%;
+    min-width: 500px;
+    max-width: 700px;
+}
+
 .footer {
     float: left;
     height: 60px;

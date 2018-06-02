@@ -87,6 +87,29 @@ Aldebaran) and <i>prior to that</i> I spent my time in academia as a researcher
           </div>
         </div>
       </div> -->
+      <div class="card_container" id="patents_c">
+      <div class="pats card shadow" id="patents">
+        <div class="subtitle" id="pats_sub">
+          <div class="dyn_subtitle">
+	    patents
+          </div>
+          <div class="grow btn" id="show_pats">
+            <i id="pats_toggle" class="fa fa-chevron-down fa-fw"></i>
+          </div>
+        </div>
+        <div class="details" id="all_pats" style="display:none">
+          <div class="year">
+            2017
+          </div>
+	  <div class="pub">Cynthia Breazeal, Fardad Faridi, Sigurdur Orn Adalgeirsson, <span class="me">Thomas Donahue</span>, et. al.</br>
+            <span class="pub_title">Embodied Dialog and Embodied Speech Authoring Tools For Use With An Expressive Social Robot</span></br>
+            DN/20180133900. JIBO, INC. Boston, MA. US. <i>Patent Pending</i>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="card_container" id="publications_c">
       <div class="pubs card shadow" id="publications">
         <div class="subtitle" id="pubs_sub">
           <div class="dyn_subtitle">
@@ -148,6 +171,7 @@ Aldebaran) and <i>prior to that</i> I spent my time in academia as a researcher
           </div>
         </div>
       </div>
+      </div>
     </div>
     <div class="footer">&nbsp;</div>
     <script type="text/javascript">
@@ -163,6 +187,19 @@ Aldebaran) and <i>prior to that</i> I spent my time in academia as a researcher
            $('#all_pubs').hide();
            $('#pubs_sub').css('padding-bottom', '10px');
            $('#pubs_toggle').removeClass("fa-chevron-up").addClass("fa-chevron-down");
+         }
+       });
+       $('#show_pats').click(function(e) {
+         e.preventDefault();
+         if ($('#all_pats').css('display') == 'none') {
+           $('#pats_sub').css('padding-bottom', '20px');
+           $('#all_pats').show();
+           $('#pats_toggle').removeClass("fa-chevron-down").addClass("fa-chevron-up");
+         }
+         else {
+           $('#all_pats').hide();
+           $('#pats_sub').css('padding-bottom', '10px');
+           $('#pats_toggle').removeClass("fa-chevron-up").addClass("fa-chevron-down");
          }
        });
      });
