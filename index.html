@@ -37,7 +37,8 @@
           <div class="details">
             <span class="me">I'm Tom.</span>&nbsp; I am a Character AI Engineer at <a
 	    href="http://www.jibo.com/">Jibo</a>. We build the subsystems and tools
-            necessary to make Jibo feel lifelike, produce dynamic behavior, and ensure
+            necessary to make the first social robot for home &mdash;Jibo &mdash;
+            feel lifelike, produce dynamic behavior, and ensure
             a consistent character experience across his wide range of interactions and
             skills.</br></br>
               
@@ -82,17 +83,20 @@
           </div>
         </div>
       </div> -->
-      <div class="card_container" id="patents_c">
-      <div class="pats card shadow" id="patents">
-        <div class="subtitle" id="pats_sub">
+      <div class="card_container" id="publications_c">
+      <div class="pubs card shadow" id="publications">
+        <div class="subtitle" id="pubs_sub">
           <div class="dyn_subtitle">
-	    patents
+	    publications and patents
           </div>
-          <div class="grow btn" id="show_pats">
-            <i id="pats_toggle" class="fa fa-chevron-down fa-fw"></i>
+          <div class="grow btn" id="show_pubs">
+            <i id="pubs_toggle" class="fa fa-chevron-down fa-fw"></i>
           </div>
         </div>
-        <div class="details" id="all_pats" style="display:none">
+        <div class="details" id="all_pubs" style="display:none">
+          <div class="year">
+            Patents
+          </div>
           <div class="year">
             2017
           </div>
@@ -100,21 +104,9 @@
             <span class="pub_title">Embodied Dialog and Embodied Speech Authoring Tools For Use With An Expressive Social Robot</span></br>
             DN/US20180133900. Boston, MA. US. <i>Patent Pending</i>
           </div>
-        </div>
-      </div>
-      </div>
-
-      <div class="card_container" id="publications_c">
-      <div class="pubs card shadow" id="publications">
-        <div class="subtitle" id="pubs_sub">
-          <div class="dyn_subtitle">
-	    publications
+          <div class="year">
+            Publications
           </div>
-          <div class="grow btn" id="show_pubs">
-            <i id="pubs_toggle" class="fa fa-chevron-down fa-fw"></i>
-          </div>
-        </div>
-        <div class="details" id="all_pubs" style="display:none">
           <div class="year">
             2015
           </div>
@@ -182,19 +174,6 @@
            $('#all_pubs').hide();
            $('#pubs_sub').css('padding-bottom', '10px');
            $('#pubs_toggle').removeClass("fa-chevron-up").addClass("fa-chevron-down");
-         }
-       });
-       $('#show_pats').click(function(e) {
-         e.preventDefault();
-         if ($('#all_pats').css('display') == 'none') {
-           $('#pats_sub').css('padding-bottom', '20px');
-           $('#all_pats').show();
-           $('#pats_toggle').removeClass("fa-chevron-down").addClass("fa-chevron-up");
-         }
-         else {
-           $('#all_pats').hide();
-           $('#pats_sub').css('padding-bottom', '10px');
-           $('#pats_toggle').removeClass("fa-chevron-up").addClass("fa-chevron-down");
          }
        });
      });
