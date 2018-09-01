@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/donahut
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://donahut.github.io
+  * I am donahut (https://keybase.io/donahut) on keybase.
+  * I have a public key ASArRTBgte3rOCATd06ZkiGLlfeT-uW7k5UzfdVwnhfY0go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202b453060b5edeb382013774e9992218b95f793fae5bb9395337dd5709e17d8d20a",
+      "host": "keybase.io",
+      "kid": "01202b453060b5edeb382013774e9992218b95f793fae5bb9395337dd5709e17d8d20a",
+      "uid": "b7f07f5bef2502b2a70e89603ca78219",
+      "username": "donahut"
+    },
+    "merkle_root": {
+      "ctime": 1535837259,
+      "hash": "1b443369eadc88b50c8d29e0e4b451148aa2adddf55696b2e1db0b58e6c5069f087692797f20c3cc2ef20e9c78c3460189f909d835dfb5f1a1aa58f1b541e9cb",
+      "hash_meta": "72d13cb1d19cf59609a30b89b10036ebf5cdef09f6cbceb8690fffd60cc3893a",
+      "seqno": 3550111
+    },
+    "service": {
+      "entropy": "JroKlpyz+rZ7htSLxN+Jv9u6",
+      "hostname": "donahut.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.0"
+  },
+  "ctime": 1535837273,
+  "expire_in": 504576000,
+  "prev": "8a4b534a754a4aff2c5cb6f95c317206a3970bb2f6c5f4392b860bb76fe895fd",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgK0UwYLXt6zggE3dOmZIhi5X3k/rlu5OVM33VcJ4X2NIKp3BheWxvYWTESpcCCMQgiktTSnVKSv8sXLb5XDFyBqOXC7L2xfQ5K4YLt2/olf3EINQS7q6Uxo2qeNx9kfZBg+mbHKJnaA7xADdTgN/viX+ZAgHCo3NpZ8RAz+apFbbiY6p2mXNJNjvtOPacKCR+kEFcdtAEFWqkyG9m8UHEqEPwhaSOitxTV7lKIfKZsF/IwbKpIrrM10C8CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIK4oUepaXtJ3/xp9yFmKgSyjO/TNjR2lIPSBDgNgaep+o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/donahut
+
+==================================================================
