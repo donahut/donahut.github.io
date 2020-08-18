@@ -1,9 +1,29 @@
 * { margin: 0 auto; }
 
-body {
-    background-color: #09629B;
-    color: #007FFF;
+:root {
+  --background-bg: #025F82;
+    
+  --header-bg: #ED3D00;
+  --bolt: #092C21;
+
+  --card-bg: #fff3cf;  
+  --title: #092C21;
+  --text: #092C21;
+  --pub-title: #992700;
+
+  --link: #006A37;
+  --link-visited: #006A37;
+  --link-hover: #007E41;
 }
+
+body {
+    background-color: var(--background-bg);
+    color: var(--background-bg);
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid var(--text);
+    margin: 24px 0; padding: 0; }
 
 @font-face {
     font-family: 'bebas';
@@ -63,7 +83,7 @@ body {
     -webkit-border-radius: 2px;
     border-radius: 2px;
     padding: 2%;
-    background-color: #E8E8E8;
+    background-color: var(--card-bg);
 }
 
 .card_container{
@@ -88,7 +108,7 @@ body {
 
 .greeting {
     display: inline-block;
-    background-color: #F2EE00;
+    background-color: var(--header-bg);
     font-family: 'bebas', Arial, sans-serif;
     padding-top: 30px;
     width: 50%;
@@ -98,7 +118,7 @@ body {
 
 .subgreet {
     font-family: 'bebas', Arial, sans-serif;
-    color: #000000;
+    color: var(--title);
     width: 90%;
     font-size: 36pt;
     text-align: left;
@@ -107,7 +127,7 @@ body {
 
 .bolt {
     text-align: center;
-    color: #000000;
+    color: var(--bolt);
 }
 
 .content {
@@ -119,8 +139,8 @@ body {
 .about { 
     display: inline-block;
     text-align: left;
-    background-color: #E8E8E8;
-    color: #383838;
+    background-color: var(--card-bg);
+    color: var(--text);
     font-family: 'robotoregular', Arial, sans-serif;
     margin-top: 40px;
     width: 50%;
@@ -136,8 +156,8 @@ body {
 .pubs {
     display: inline-block;
     margin-top: 40px;
-    background-color: #E8E8E8;
-    color: #383838;
+    background-color: var(--card-bg);
+    color: var(--text);
     font-family: 'robotoregular', Arial, sans-serif;
     width: 50%;
     min-width: 500px;
@@ -152,10 +172,11 @@ body {
 
 .subtitle {
     font-family: 'bebas', Arial, sans-serif;
-    color: #000000;
+    color: var(--title);
     width: 90%;
     font-size: 16pt;
     text-align: left;
+    padding-top: 8px;
     padding-bottom: 10px;
     word-spacing: 4px;
 }
@@ -170,7 +191,7 @@ body {
 }
 
 .year {
-    color: #000000;
+    color: var(--title);
     padding-top: 30px;
     font-size: 12pt;
     text-align: left;
@@ -185,7 +206,7 @@ body {
 }
 
 .medium {
-    color: #000000;
+    color: var(--title);
     float: left;
     width: 25%;
     font-size: 14pt;
@@ -205,47 +226,47 @@ body {
 }
 
 .pub_title {
-    color: #236087;
+    color: var(--pub-title);
     font-family: 'robotoitalic';
 }
 
 A:link { 
-    COLOR: #E00030; 
+    COLOR: var(--link); 
     TEXT-DECORATION: none; 
     font-weight: strong
 }
 
 A:visited { 
-    COLOR: #E00030; 
+    COLOR: var(--link-visited); 
     TEXT-DECORATION: none; 
     font-weight: normal 
 }
 
 A:hover { 
-    COLOR: #0567A7; 
+    COLOR: var(--link-hover); 
     TEXT-DECORATION: none; 
     font-weight: none 
 }
 
 .btn {
     cursor: pointer;
-    color: #E00030; 
+    color: var(--link); 
 }
 
 .btn:link { 
-    COLOR: #E00030; 
+    COLOR: var(--link); 
     TEXT-DECORATION: none; 
     font-weight: strong
 }
 
 .btn:visited { 
-    COLOR: #E00030; 
+    COLOR: var(--link-visited); 
     TEXT-DECORATION: none; 
     font-weight: normal 
 }
 
 .btn:hover { 
-    COLOR: #0567A7; 
+    COLOR: var(--link-hover); 
     TEXT-DECORATION: none; 
     font-weight: none 
 }
